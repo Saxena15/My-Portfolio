@@ -3,7 +3,7 @@ const Experience = () => {
     {
       company: "Paytm",
       imageURL: "https://media.licdn.com/dms/image/v2/D560BAQGimDr9TQiNUA/company-logo_200_200/B56ZYJb2xuHEAU-/0/1743915020166?e=1756339200&v=beta&t=xm1FMHOwa3EqDddXX9osHSQYLWQ1qhr4OUCue3d99ts",
-      title: "Senior Software Engineer - Mobile App",
+      title: "Senior Software Engineer",
       location: "Noida",
       date: "Feb '25 - Present",
       points: [
@@ -40,7 +40,7 @@ const Experience = () => {
 
   return (
     <section className="px-6 py-10 bg-white">
-      <h2 className="text-2xl font-bold mb-6">Experience</h2>
+      <h2 className="experience-item">Experience</h2>
       {experiences.map((exp, idx) => (
         <div key={idx} className="experience-item">
           <div>
