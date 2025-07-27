@@ -1,0 +1,21 @@
+.page-background {
+  @apply font-sans min-h-screen;
+}
+
+.container-box {
+  @apply m-4 sm:m-6 md:m-10 rounded-xl shadow-lg;
+  list-style: none;
+}
+
+.content-wrapper {
+  @apply p-4 sm:p-6 md:p-10 max-w-screen-lg text-left;
+  scrollbar-color: #cbd5e1 #f3f4f6;
+}
+.scrollbar-hidden {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+}
+
+.scrollbar-hidden::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}

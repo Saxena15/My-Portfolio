@@ -54,3 +54,56 @@
 .content-wrapper {
   @apply p-4 sm:p-6 md:p-10 max-w-screen-lg text-left;
 }
+.company-logo{
+   width: 48px;
+  height: 48px;
+  border-radius: 50%; /* Makes it a circle */
+  object-fit: cover;  /* Ensures the image covers the circle without distortion */
+  margin-bottom: 0.5rem;
+}
+
+/* styles.css */
+.btn {
+  background-color: blue;
+  padding: 0.5rem 1rem;
+  border-radius: 9999px;
+  color: white;
+}
+.experience-item {
+  display: flex;
+  align-items: center; /* vertically center contents */
+  margin-bottom: 2rem;
+  padding: 1rem 0;
+  position: relative;
+}
+
+.experience-item-left {
+  width: 4rem; /* reserve space for rotated text */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform-origin: center;
+  white-space: nowrap;
+  font-size: 0.75rem;
+  font-weight: bold;
+  color: #6b7280;
+}
+
+.experience-item-right {
+  flex: 1;
+  padding-left: 1rem;
+  text-align: left;
+}
+
+.experience-heading {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
